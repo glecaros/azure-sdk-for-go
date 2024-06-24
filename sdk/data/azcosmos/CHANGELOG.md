@@ -1,6 +1,6 @@
 # Release History
 
-## 1.0.2 (Unreleased)
+## 1.0.4 (Unreleased)
 
 ### Features Added
 
@@ -8,9 +8,19 @@
 
 ### Bugs Fixed
 
-* Fixed ReplaceThroughput operations on Database and Container. See [PR 22923](https://github.com/Azure/azure-sdk-for-go/pull/22923)
-
 ### Other Changes
+
+## 1.0.3 (2024-06-17)
+
+### Bugs Fixed
+
+* Fixed data race on clientRetryPolicy. See [PR 23061](https://github.com/Azure/azure-sdk-for-go/pull/23061)
+
+## 1.0.2 (2024-06-11)
+
+### Bugs Fixed
+
+* Fixed ReplaceThroughput operations on Database and Container. See [PR 22923](https://github.com/Azure/azure-sdk-for-go/pull/22923)
 
 ## 1.0.1 (2024-05-02)
 
